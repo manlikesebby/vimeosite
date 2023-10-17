@@ -1,0 +1,382 @@
+body{
+    background-image: url(images/bg/animal.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#header{
+    height: 165px;
+    background-color: black;
+    background: url(images/jpg/header.jpg);
+}
+
+#main-header{
+    width: 1000px;
+    height: 165px;
+    background-color: grey;
+    margin: auto;
+    background: url(images/gif/main_header.gif);
+}
+#navigation{
+    height: 35px;
+    background-color: red;
+    background-image: url(images/png/nav.png);
+}
+
+#main-navigation{
+    width: 1000px;
+    height: 35px;
+    background-color: yellow;
+    margin: auto;
+    background-image: url(images/png/nav.png);
+}
+
+#main-navigation a{
+    color:#060;
+    text-decoration: none;
+    line-height: 35px;
+    padding: 0 55px;
+    border-left: 1px inset #ccc;
+    border-right: 1px inset #ccc;
+    float: left;
+}
+
+#main-navigation a:hover{
+    color: white;
+    background-image: url(images/jpg/hover.jpg);
+}
+#headline{
+    height: 25px;
+    background-color: #030;
+}
+
+#main-headline{
+    width: 1000px;
+    height: 25px;
+    background-color: #030;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-headline marquee{
+    line-height: 25px;
+    color: white;
+    margin: auto;
+}
+
+#content{
+    width: 940px;
+    padding: 30px;
+    margin: auto;
+    background-color: #00000090;
+}
+
+#slider{
+    height: 350px;
+    border: 1px solid #000000;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+#text-content-1{
+    height: 150px;
+    border: 1px solid #cccccc;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+#text-content-1 h2{
+    text-align: center;
+    color:#ff0;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+
+#text-content-1 p{
+    text-align: center;
+    color:#fff;
+    margin: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+#text-content-2{
+    height: 250px;
+    border: 1px solid #cccccc;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+#text-content-2 h2{
+    text-align: center;
+    color:#ff0;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+
+#text-content-2 p{
+    text-align: center;
+    color:#fff;
+    margin: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+#picture-content-1{
+    height: 220px;
+    margin: 15px 0;
+}
+
+.content-1-picture{
+    width: 440px;
+    height: 220px;
+    margin: 0 15px;
+    background-color: #444444;
+    border-radius: 15px;
+    float: left;
+}
+
+#picture-content-2{
+    height: 220px;
+    margin: 15px 0;
+}
+
+.content-2-picture{
+    width: 283px;
+    height: 220px;
+    margin: 0 15px;
+    background-color: #444444;
+    border-radius: 15px;
+    float: left;
+}
+
+#footer{
+    height: 350px;
+    background-color: black;
+    background-image: url(images/jpg/footer.jpg);
+}
+
+#footer-top{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    
+}
+
+.footer-info{
+    width: 220px;
+    height: 300px;
+    margin:0 15px;
+    float: left;
+
+}
+
+.footer-info h2{
+    color: #ff0;
+    margin: 10px 0;
+    border-bottom: 2px solid;
+}
+
+.footer-info p{
+    color: white;
+    margin: 5px 0;
+    
+}
+
+.footer-info a{
+    color: #ff0;
+    text-decoration: underline;
+}
+
+.footer-info a:hover{
+    color: #ffc;
+    text-decoration: underline;
+}
+
+.footer-info li{
+    color: white;
+    line-height: 25px;
+    list-style-image: url(images/png/clock.png);
+}
+
+.social{
+    height: 56px;
+    margin: 15px 0;
+}
+
+.social-icon{
+    width: 56px;
+    height: 56px;
+    float: left;
+    margin-right: 10px;
+}
+
+#footer-bottom{
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    background-color: green;
+    background-image: url(images/jpg/footer_bottom.jpg);
+}
+
+#footer-bottom p{
+    margin: 0;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+}
+
+#footer-bottom a{
+    color: #ff0;
+    text-decoration: none;
+}
+
+#footer-bottom a:hover{
+    color: #ffc;
+    text-decoration: underline;
+}
+
+.about{
+    border: 2px white solid;
+    height: 230px;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+.about-pix{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 100px;
+    float: left;
+}
+
+.about-pix img{
+    border-radius: 100px;
+}
+
+.about h2 {
+    color: #ff0;
+    margin: 15px;
+
+}
+
+.about p{
+    color: white;
+    margin: 15px;
+    line-height: 20px;
+}
+
+.about a{
+    color: #ff0;
+    text-decoration: none;
+}
+
+.about a:hover{
+    color: #ffc;
+    text-decoration: underline;
+}
+
+.gallery img{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    border-radius:25px ;
+    transition: 0.5s;
+}
+
+.gallery img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+
+#Register fieldset {
+    border-radius: 10px;
+    border: 2px solid #fff;  
+}
+#Register legend{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#Register td{
+    color: #fff;
+    line-height: 30px;
+}
+#Register input[type=text], input[type=password] {
+    padding: 5px;
+    border-radius: 8px;
+}
+#Register input[type=text]:focus,  input[type=password]:focus {
+    width: 120%;
+    background-color: #ff0;
+}
+#Register input[type=submit]{
+    background-color: #030;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+#Register input[type=submit]:hover{
+    background-color: #060;
+    color:#ff0
+}
+#register textarea{
+    resize: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+#register input[type=file]{
+    border-radius: 5px;
+    padding: 5px;
+}
+#contact table{
+    background-color: #f1f1f1;
+    border-collapse: collapse;
+}
+#contact th{
+    padding: 5px;
+    background-color: #030;
+    color: #f1f1f1;
+    text-align: left;
+}
+#contact td{
+    padding: 5px;
+}
+#contact tr:nth-child(even){
+    background-color: #ff0;
+    color: red;
+}
+#contact a{
+    color: #060;
+    text-decoration: none;
+}
+#contact a:hover{
+    color: #060;
+    text-decoration: none;
+}
+.Branch{
+    font-weight: bold;
+    font-style: italic;
+}
+#text-content-6 p{
+    text-align: left;
+    color:#fff;
+    margin: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}#text-content-6 h2{
+    text-align: center;
+    color:#ff0;
+  
+}
+#text-content-6 ul{
+    text-align: left;
+    color: #f1f1f1;
+   font-weight: bold;
+   border: #cccccc;
+}
